@@ -22,6 +22,7 @@ export interface WindowProps {
     windowBarIcon?: IconName;
     onWidthChange?: (width: number) => void;
     onHeightChange?: (height: number) => void;
+    children?: React.ReactNode;  // Add this line
 }
 
 const Window: React.FC<WindowProps> = (props) => {

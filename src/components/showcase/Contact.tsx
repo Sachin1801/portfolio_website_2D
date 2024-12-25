@@ -4,6 +4,12 @@ import twitterIcon from '../../assets/pictures/contact-twitter.png';
 import ghIcon from '../../assets/pictures/contact-gh.png';
 import inIcon from '../../assets/pictures/contact-in.png';
 import ResumeDownload from './ResumeDownload';
+import emailjs from '@emailjs/browser';
+
+// Add this after your imports
+emailjs.init({
+    publicKey: "GXGSZ1rsBUryeTmBN"  // keep your existing public key
+});
 
 export interface ContactProps {}
 
@@ -48,6 +54,12 @@ const Contact: React.FC<ContactProps> = (props) => {
         }
     }, [email, name, message]);
 
+    // First install emailjs-com
+// npm install @emailjs/browser
+
+
+
+// Replace the submitForm function with this:
     async function submitForm() {
         if (!isFormValid) {
             setFormMessage('Form unable to validate, please try again.');
@@ -56,46 +68,35 @@ const Contact: React.FC<ContactProps> = (props) => {
         }
         try {
             setIsLoading(true);
-            const res = await fetch(
-                'https://api.henryheffernan.com/api/contact',
-                {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        company,
-                        email,
-                        name,
-                        message,
-                    }),
-                }
+            
+            const templateParams = {
+                from_name: name,
+                from_email: email,
+                company: company,
+                message: message,
+                to_name: "Sachin Adlakha",  // add this based on your template
+                to_email: 'sachinadlakha1801@gmail.com'
+            };
+
+            const result = await emailjs.send(
+                'service_ulfviha',  // Get this from EmailJS dashboard
+                'template_2s69veu', // Get this from EmailJS dashboard
+                templateParams,
+                'GXGSZ1rsBUryeTmBN'   // Get this from EmailJS dashboard
             );
-            // the response will be either {success: true} or {success: false, error: message}
-            const data = (await res.json()) as
-                | {
-                      success: false;
-                      error: string;
-                  }
-                | { success: true };
-            if (data.success) {
+
+            if (result.status === 200) {
                 setFormMessage(`Message successfully sent. Thank you ${name}!`);
                 setCompany('');
                 setEmail('');
                 setName('');
                 setMessage('');
                 setFormMessageColor(colors.blue);
-                setIsLoading(false);
-            } else {
-                setFormMessage(data.error);
-                setFormMessageColor(colors.red);
-                setIsLoading(false);
             }
         } catch (e) {
-            setFormMessage(
-                'There was an error sending your message. Please try again.'
-            );
+            setFormMessage('There was an error sending your message. Please try again.');
             setFormMessageColor(colors.red);
+        } finally {
             setIsLoading(false);
         }
     }
@@ -116,21 +117,21 @@ const Contact: React.FC<ContactProps> = (props) => {
                 <div style={styles.socials}>
                     <SocialBox
                         icon={ghIcon}
-                        link={'https://github.com/henryjeff'}
+                        link={'https://github.com/Sachin1801'}
                     />
                     <SocialBox
                         icon={inIcon}
-                        link={'https://www.linkedin.com/in/henryheffernan/'}
+                        link={'https://www.linkedin.com/in/sachin-adlakha/'}
                     />
                     <SocialBox
                         icon={twitterIcon}
-                        link={'https://twitter.com/henryheffernan'}
+                        link={'https://x.com/sachinadlakha18'}
                     />
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    I am currently employed, however if you have any
+                    I am currently enrolled in full-time studies, however if you have any
                     opportunities, feel free to reach out - I would love to
                     chat! You can reach me via my personal email, or fill out
                     the form below!
@@ -138,8 +139,8 @@ const Contact: React.FC<ContactProps> = (props) => {
                 <br />
                 <p>
                     <b>Email: </b>
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:sachinadlakha1801@gmail.com">
+                        sachinadlakha1801@gmail.com
                     </a>
                 </p>
 

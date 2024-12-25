@@ -12,13 +12,13 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Sachin Adlakha</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I'm a software engineer currently a Graduate Student at New York University! In July
+                    of 2024 I graduated from Guru Gobind Singh Indraprastha University
+                    with my B.Tech in Computer Science.
                 </p>
                 <br />
                 <p>
@@ -27,8 +27,8 @@ const About: React.FC<AboutProps> = (props) => {
                     building it. If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:sachinadlakha1801@gmail.com">
+                        sachinadlakha1801@gmail.com
                     </a>
                 </p>
             </div>
@@ -42,9 +42,9 @@ const About: React.FC<AboutProps> = (props) => {
                     with Lego and I fell in love with building things. In
                     elementary school, I joined the Lego Robotics team at my
                     local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                    programming. In 2024, I moved across the globe from New Delhi, 
+                    India to New York, where I am attending New York University for my
+                    Masters in Computer Science.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -60,30 +60,28 @@ const About: React.FC<AboutProps> = (props) => {
                 <p>
                     I started programming more seriously in high school,
                     initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
+                    I started learning basic HTML when I was 14 and started with C++
+                    when I was 16. I quickly fell in love with programming and
+                    I went on to do a ton of passion projects.
+                    I worked on many projects, including Image Enhancement,
+                    multiple game projects, innovative Ideas,AI and more. One of these
                     projects is viewable on my{' '}
                     <Link to="/projects/software">Software Projects</Link> page.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                    In 2020, I began my Bachelor's in Computer Science and Engineering
+                     at Guru Gobind Singh Indraprastha University in India, where I 
+                     maintained a strong GPA of 9.17/10. During my undergraduate years, 
+                     I gained valuable industry experience through two internships. 
+                     From July to September 2022, I worked as a Web Development Intern 
+                     at Coding Blocks, where I refined portfolio websites and implemented 
+                     comprehensive testing protocols across multiple platforms. Later, 
+                     from June to September 2023, I served as a Technical Associate Intern 
+                     at Growvisionary, where I led the development of a fintech website 
+                     using AI tools, successfully reducing procurement costs by 20%. 
+                     Now, I'm continuing my academic journey at New York University, 
+                     pursuing my MS in Computer Science starting September 2024.
                 </p>
                 <br />
                 <br />
@@ -101,28 +99,29 @@ const About: React.FC<AboutProps> = (props) => {
                         <p>
                             Beyond software, I have a lot of hobbies that I
                             enjoy doing in my free time. The more tangible
-                            hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
-                            and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
-                            read more about each of these on their respective
-                            pages under my projects tab. Some other hobbies I
+                            hobbies I have are to {' '}
+                            <Link to="/projects/blogs">Write Blogs</Link>{' '}
+                            and playing{' '}
+                            Billiards. You can
+                            read more about my blogs of these on its respective
+                            page under my projects tab. Some other hobbies I
                             enjoy are working out, cooking, and (unsurprisingly)
                             playing video games.
                         </p>
                         <br />
                         <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
+                            In college, I was an President in the Tech-Soc
+                            Society and held multiple hackathons for students in
+                            my bachelors. I was also the President of the Fashion 
+                            Society during My Bachelors.I met a lot of amazing 
+                            people through my fraternity and thoroughly enjoyed the community.
                         </p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Me, October 2024
                             </sub>
                         </p>
                     </div>
@@ -133,13 +132,13 @@ const About: React.FC<AboutProps> = (props) => {
                     Thanks for reading about me! I hope that you enjoy exploring
                     the rest of my portfolio website and everything it has to
                     offer. If you find the easter egg make sure to let me know
-                    on twitter{' '}
+                    on X(formerly Twitter){' '}
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://x.com/sachinadlakha18"
                     >
-                        @henryheffernan
+                        @sachinadlakha18
                     </a>{' '}
                     Good luck and have fun!
                 </p>
@@ -149,8 +148,8 @@ const About: React.FC<AboutProps> = (props) => {
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:sachinadlakha1801@gmail.com">
+                        sachinadlakha1801@gmail.com
                     </a>
                 </p>
             </div>

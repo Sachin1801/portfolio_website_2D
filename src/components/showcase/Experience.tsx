@@ -10,71 +10,60 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>GGSIPU</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'https://dl.acm.org/doi/10.1145/3647444.3647906'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>ACM Conference Publication</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>Research Assistant</h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>Jan 2024 - June 2024</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Targeted towards online content creators and streamers
-                    looking to build a brand, Hover is the home of over 150K
-                    users. Written in Typescript using React, React-Native,
-                    Framer, Express, and Redux.
+                 Led the development of an innovative real-time sign language recognition
+                 system using computer vision and deep learning to improve communication
+                  accessibility for hearing and speech-impaired individuals.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
+                        Designed a two-step gesture recognition solution by integrating 
+                        MediaPipe for keypoint detection and LSTM networks for sequential gesture analysis.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Designed and implemented multiple features to
-                            increase app usability and user experience while
-                            ensuring the quality, maintainability and
-                            scalability of the front end as the user base grew
-                            by over 50,000.
+                        Published a research paper in ACM Conference Proceedings (May 2024) 
+                        on the system's design and implementation.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Coordinated major refactors targeted towards app
-                            optimization and performance resulting in a smoother
-                            user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
+                        Implemented holistic keypoint detection for face, hand, and pose tracking to enhance recognition accuracy.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
+                        Earned recognition from the Dean and faculty for contributions to assistive technology.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Rebuilt the website with React and shared mobile app
-                            components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
+                        Technical Implementation:
+                        Built deep neural networks using TensorFlow and Keras.
+                        Utilized OpenCV and MediaPipe for computer vision-based keypoint tracking.
+                        Employed LSTM architecture for analyzing sequential gestures in real-time.
+                        Developed a pipeline for real-time video processing and gesture recognition.
                         </p>
                     </li>
                 </ul>
@@ -82,55 +71,47 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
+                        <h1>Growvisionary - Startup</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://bracs.co/'}
+                            // href={'https://bracs.co/'}
                         >
-                            <h4>www.bracs.co</h4>
+                            {/* <h4>www.bracs.co</h4> */}
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>Technical Associate Intern</h3>
                         <b>
-                            <p>Fall 2021 - Spring 2022</p>
+                            <p>Summer 2023 - Fall 2023</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Supervised and developed the front end of bracs.co, a
-                    beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
-                    deployed using AWS Elastic Beanstalk.
+                Led the development of a fintech startup website using AI tools, 
+                streamlining supplier negotiations to reduce procurement costs by 20%,
+                 while driving 10,000+ views and maintaining product quality.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Managed the project and team members by conducting
-                            bi-weekly stand-ups.
+                        Designed and implemented scalable backend systems, ensuring 
+                        seamless integration with third-party APIs to enhance procurement workflows.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
+                        Conducted performance optimization, reducing server response 
+                        time by 30%, improving user experience for stakeholders.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
+                            Collaborated with cross-functional teams to deliver a 
+                            robust platform within tight deadlines, adhering to agile methodologies.
                         </p>
                     </li>
                 </ul>
@@ -138,102 +119,86 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
+                        <h1>Coding Blocks</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={'https://codingblocks.com/'}
                         >
-                            <h4>www.kfxnyc.com</h4>
+                            <h4>https://codingblocks.com/</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
+                        <h3>Teaching Assistant</h3>
                         <b>
-                            <p>Fall 2019, Summer 2021</p>
+                            <p>November 2022, May 2023</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Applied problem solving and technical skills to operate
-                    large equipment such as rain machines, fog machines, small
-                    explosives and general rigging with a professional crew of
-                    50+ people.
+                Contributed to teaching three C++ classes, each with 70+ 
+                students, by assisting the lead instructor in delivering 
+                high-quality programming education.
                 </p>
                 <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
+                {/* <h3 style={styles.indent}>Screen Credits:</h3> */}
                 <ul>
                     <li style={styles.row}>
-                        <p>• Ray Donovan</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/ray-donovan"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
-                        </p>
+                        <p>• Organized bi-monthly coding contests, fostering 
+                            a competitive and engaging environment for students 
+                            to showcase their programming skills.</p>
                     </li>
                     <li style={styles.row}>
-                        <p>• Ray Donovan: The Movie</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/titles/3508117/ray-donovan-the-movie"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
-                        </p>
+                        <p>• Simplified complex programming concepts for students,
+                             enhancing their learning experience and improving 
+                             retention rates.</p>
                     </li>
                     <li style={styles.row}>
-                        <p>• Hightown</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.starz.com/us/en/series/hightown/57463"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                STARZ
-                            </a>{' '}
-                            ]
-                        </p>
+                        <p>• Provided one-on-one mentorship to struggling students, 
+                            resulting in a 25% increase in their course completion rates.</p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>Coding Blocks</h1>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={'https://codingblocks.com/'}
+                        >
+                            <h4>https://codingblocks.com/</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Full Stack Developer Intern</h3>
+                        <b>
+                            <p>Summer 2022, Fall 2022</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                Implemented a responsive portfolio website showcasing diverse 
+                projects, incorporating SEO best practices that improved 
+                organic search visibility and drove a 50% increase in site 
+                traffic within three months.
+                </p>
+                <br />
+                {/* <h3 style={styles.indent}>Screen Credits:</h3> */}
+                <ul>
+                    <li style={styles.row}>
+                        <p>• Executed comprehensive testing and debugging protocols across 
+                            10+ devices and platforms, ensuring seamless application 
+                            performance and user satisfaction ratings increased by 25%.</p>
                     </li>
                     <li style={styles.row}>
-                        <p>• Bull</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.cbs.com/shows/bull/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                CBS
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• At Home with Amy Sedaris</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.trutv.com/shows/at-home-with-amy-sedaris"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                truTV
-                            </a>{' '}
-                            ]
-                        </p>
+                        <p>• Optimized website load times by 40% through code refactoring 
+                            and image compression techniques, enhancing overall user engagement.</p>
                     </li>
                 </ul>
             </div>
