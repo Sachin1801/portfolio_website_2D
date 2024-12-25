@@ -106,7 +106,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/portfolio-inner-site"
+                            href="https://github.com/Sachin1801/portfolio_website_2D"
                         >
                             <p>
                                 <b>[GitHub]</b> - OS Site Repository
@@ -118,27 +118,23 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     I'm skipping over a lot of details in exchange for brevity,
                     but I do plan on doing a more in depth breakdown for those
                     interested sometime in the future. To get updates with that
-                    project feel free to follow me on twitter{' '}
+                    project feel free to follow me on X(formerly twitter){' '}
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://x.com/sachinadlakha18"
                     >
-                        @henryheffernan
+                        @sachinadlakha18
                     </a>
                 </p>
             </div>
             <div className="text-block">
-                <h2>Guntattchment Saga The Sequel</h2>
+                <h2>3D Tic-Tac-Toe</h2>
                 <br />
                 <p>
-                    Guntattchment Saga or GSTS is a game I made with my good
-                    friend Scott Bass back in 2019. The game is a wave based top
-                    down shooter where you progress by building the most
-                    outrageous of weapons through attaching as many attachments
-                    on your weapon as you can. The game ceased development in
-                    2019 because we unfortunately both had packed school
-                    schedules and were unable to find the time to work on it.
+                3D Tic-Tac-Toe is an innovative take on the classic game that I developed using Next.js and modern web technologies. 
+                This project transforms the traditional 2D game board into an immersive 3D experience, challenging players to think 
+                strategically across multiple dimensions while maintaining the familiar gameplay mechanics that everyone knows and loves.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -146,28 +142,20 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <div style={styles.caption}>
                         <p>
                             <sub>
-                                <b>Figure 2: </b> Guntattchment Saga Gameplay
-                                demo, featuring the main character along with a
-                                few of our grunt and dasher enemies.
+                                <b>Figure 2: </b> 3D Tic-Tac-Toe game interface showcasing 
+                                the three-dimensional game board and intuitive player controls.
                             </sub>
                         </p>
                     </div>
                 </div>
                 <p>
-                    Guntattchment Saga was a really fun project to work on and
-                    had a multitude of challenges. An interesting challenge that
-                    you may not even notice was the rotation of objects such as
-                    the players weapon. Rotating pixel art is a very difficult
-                    thing to do because in the world of pixels you are dealing
-                    with such a little amount of information. Even a single
-                    misplaced pixel can cause a sprite to read in a totally
-                    different and unintended way. To deal with this we developed
-                    an algorithm to prioritize outlines, while rotating the
-                    insides with a simple Nearest Neighbor algorithm. Doing so
-                    resulted in a relatively readable sprite when rotating
-                    sprites. It was a surprisingly difficult challenge as it
-                    intersected both art and programming, but was fun to work on
-                    overall.
+                One of the most interesting technical challenges in developing this game was implementing the win-checking algorithm 
+                for a 3D space. Unlike traditional Tic-Tac-Toe where you only need to check rows, columns, and diagonals in 2D, 
+                the 3D version requires checking winning combinations across multiple planes and diagonal spaces in three dimensions. 
+                I solved this by developing an efficient algorithm that tracks all possible winning combinations while maintaining 
+                smooth gameplay performance. The project also features responsive design principles, ensuring that the 3D rendering 
+                works seamlessly across different screen sizes and devices.
+                    
                 </p>
                 <br />
                 <h3>Links:</h3>
@@ -176,11 +164,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/scottbass47/gsts"
+                            href="https://github.com/Sachin1801/3D-Tik-Tac-Toe?tab=readme-ov-file"
                         >
                             <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Unity Repository
+                                <b>[GitHub]</b> - 3D Tic-Tac-Toe Repository
                             </p>
                         </a>
                     </li>
@@ -188,22 +175,21 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/gsts_assets"
+                            href="https://sachin-3-d-tik-tac-toe-1.vercel.app"
                         >
                             <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Assets Repository
+                                <b>[GitHub]</b> - Live Demo of 3D Tic-Tac-Toe
                             </p>
                         </a>
                     </li>
                 </ul>
                 <p>
                     Unfortunately, the game currently is not in a releasable
-                    state and so there is no demo available online. If this ever
-                    changes, however, a link to the game will be added here.
+                    state and but there is a demo available online. If this ever
+                    changes, however, a link to the game in appstore will be added here.
                 </p>
             </div>
-            <div className="text-block">
+            {/* <div className="text-block">
                 <h2>Skip the Scroll</h2>
                 <br />
                 <p>
@@ -271,7 +257,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     time. If you like it, feel free to star it on GitHub and
                     rate it on the Chrome web store.
                 </p>
-            </div>
+            </div> */}
             <ResumeDownload />
         </div>
     );
