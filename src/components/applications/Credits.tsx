@@ -28,7 +28,7 @@ const CREDITS = [
         title: 'Special Thanks',
         rows: [
             ['Leo Adlakha', 'All'],
-            ['Leo Adlakha', 'All'],
+            ['Mom & Dad', 'All'],
         ],
     },
     {
