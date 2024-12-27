@@ -76,7 +76,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             // href="https://henryheffernan.com"
                         >
                             <p>
-                                <b>[3D Site]</b> - Link-3d
+                                <b>[3D Site]</b> - Link-3d pending
                             </p>
                         </a>
                     </li>
