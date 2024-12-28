@@ -44,7 +44,7 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
                             element={<SoftwareProjects />}
                         />
                         <Route
-                            path="/projects/"
+                            path="/projects/music"
                             element={<MusicProjects />}
                         />
                         <Route path="/projects/art" element={<ArtProjects />} />
