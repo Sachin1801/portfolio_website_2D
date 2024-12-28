@@ -57,7 +57,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://henryheffernan.vercel.app/"
+                        href="https://sachinadlakha.vercel.app/"
                     >
                         here
                     </a>{' '}
@@ -73,10 +73,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            // href="https://henryheffernan.com"
+                            href="https://sachinadlakha3d.vercel.app/"
                         >
                             <p>
-                                <b>[3D Site]</b> - Link-3d
+                                <b>[3D Site]</b> - https://sachinadlakha3d.vercel.app/
                             </p>
                         </a>
                     </li>
