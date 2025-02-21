@@ -3,6 +3,11 @@ import React from 'react';
 const Blog: React.FC = () => {
     // Array of blog entries to calculate the count
     const blogEntries = [
+        { title: "Mastering Pointers in C++ for Financial Computing", date: "February 19, 2025" },
+        { title: "Risk Analysis and Insights from Financial Data", date: "February 13, 2025" },
+        { title: "Unlocking the Power of Data Manipulation with Pandas", date: "January 22, 2025" },
+        { title: "A Day at Braze: My Immersion Experience with a Leading Digital Marketing Company", date: "January 21, 2025" },
+        { title: "Optimizing Merging of K Sorted Lists: From O(n log n) to O(n log k) 🚀", date: "January 7, 2025" },
         { title: "CBOE CLEAR Interview Experience", date: "December 29, 2024" },
         { title: "One.app Interview Experience", date: "December 29, 2024" },
         { title: "The Dining Philosophers Problem", date: "November 20, 2024" },
@@ -80,6 +85,139 @@ const Blog: React.FC = () => {
                 </ul>
             </div>
             */}
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>Mastering Pointers in C++ for Financial Computing</h1>
+                        <a rel="noreferrer" target="_blank" href="https://medium.com/@sachinadlakha7/mastering-pointers-in-c-for-financial-computing-11f68832d215">
+                            <h4>Read on Medium</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        {/* <h3>[Subtitle]</h3> */}
+                        <b><p>February 19, 2025</p></b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>Pointers in C++ are fundamental yet tricky. They provide powerful control 
+                over memory but can also lead to errors if misused. 
+                In financial computing, where performance and efficiency matter, understanding pointers 
+                deeply is crucial.</p>
+                <br />
+                <ul>
+                    <li><p>Explored the intricacies of pointers, including memory allocation, 
+                        deallocation, and type safety.</p></li>
+                </ul>
+            </div>
+
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>Risk Analysis and Insights from Financial Data</h1>
+                        <a rel="noreferrer" target="_blank" href="https://medium.com/@sachinadlakha7/risk-analysis-and-insights-from-financial-data-b4be578b3d70">
+                            <h4>Read on Medium</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        {/* <h3>[Subtitle]</h3> */}
+                        <b><p>February 13, 2025</p></b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>Financial data is a treasure trove of information, but it can also be a minefield 
+                of risk. In this blog, we'll dive into the world of risk analysis and insights from 
+                financial data, exploring the key concepts and techniques used to manage and mitigate 
+                risk in the financial industry.</p>
+                <br />
+                <ul>
+                    <li><p>Discussed the importance of risk management in financial computing, 
+                        including the role of risk models and risk metrics.</p></li>
+                    <li><p>Explored the use of Monte Carlo simulations and other techniques to 
+                        analyze and mitigate risk in financial data.</p></li>
+                </ul>
+            </div>
+
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>Unlocking the Power of Data Manipulation with Pandas</h1>
+                        <a rel="noreferrer" target="_blank" href="https://medium.com/@sachinadlakha7/unlocking-the-power-of-data-manipulation-with-pandas-be39691d25b3">
+                            <h4>Read on Medium</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        {/* <h3>[Subtitle]</h3> */}
+                        <b><p>January 22, 2025</p></b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>Pandas is a powerful tool for data manipulation and analysis, but it can also be a bit tricky to master. 
+                In this blog, we'll dive into the world of Pandas and explore the key concepts and techniques used to 
+                manipulate and analyze data.</p>
+                <br />
+                <ul>
+                    <li><p>Discussed the importance of data manipulation in financial computing, 
+                        including the role of Pandas and other data manipulation tools.</p></li>
+                    <li><p>Explored the use of Pandas and other techniques to 
+                        manipulate and analyze data.</p></li>
+                </ul>
+            </div>
+
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>A Day at Braze: My Immersion Experience with a Leading Digital Marketing Company</h1>
+                        <a rel="noreferrer" target="_blank" href="http://medium.com/@sachinadlakha7/a-day-at-braze-my-immersion-experience-with-a-leading-digital-marketing-company-c93d283d84e3">
+                            <h4>Read on Medium</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        {/* <h3>[Subtitle]</h3> */}
+                        <b><p>January 21, 2025</p></b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>A day at Braze was a great experience. I got to learn about the company and the culture. 
+                </p>
+                <br />
+                <ul>
+                    <li><p>Earned A Certificate of Completion for Customer Engagement Fundamentals</p></li>
+                </ul>
+            </div>
+
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>Optimizing Merging of K Sorted Lists: From O(n log n) to O(n log k) 🚀</h1>
+                        <a rel="noreferrer" target="_blank" href="https://medium.com/@sachinadlakha7/optimizing-merging-of-k-sorted-lists-from-o-n-log-n-to-o-n-log-k-913fa7c56d9d">
+                            <h4>Read on Medium</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        {/* <h3>[Subtitle]</h3> */}
+                        <b><p>January 7, 2025</p></b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                Merging k sorted linked lists is a classic problem in computer science, often 
+                encountered in interviews and real-world applications like database merging or 
+                stream processing. While a naive approach might solve the problem, a clever optimization 
+                can reduce the complexity significantly, making it much faster for large inputs.
+                </p>
+                <br />
+                <ul>
+                    <li><p>Discussed the importance of optimization in computer science, 
+                        including the role of data structures and algorithms.</p></li>
+                    <li><p>Explored the use of heap data structure to optimize the merging process.</p></li>
+                </ul>
+            </div>
+           
 
             {/* CBOE CLEAR Interview Experience - Most Recent */}
             <div style={styles.headerContainer}>

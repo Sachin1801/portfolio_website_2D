@@ -94,6 +94,43 @@ const About: React.FC<AboutProps> = (props) => {
                             flexDirection: 'column',
                         }}
                     >
+                        {/* <h3>My Hobbies</h3>
+                        <br />
+                        <p>
+
+                        </p> */}
+                        <h2 className="text-2xl font-semibold mt-6 mb-2">What I'm Working On Currently</h2>
+                        <p className="text-lg mb-4">
+                            I am currently working on three key projects:
+                        </p>
+                        <ul style={{ 
+                            listStyleType: 'disc', 
+                            marginLeft: '20px',
+                            fontSize: '18px',
+                            fontFamily: 'Millennium, "Times New Roman", Times, serif'
+                        }}>
+                            <li><b>MarketplAIce</b>: A marketplace for AI-driven products and agents.</li>
+                            <li><b><a href="https://www.9thgen.ai/" target="_blank" rel="noopener noreferrer">9thgenAI</a></b>: A cutting-edge AI innovation platform.</li>
+                            <li><b>Simplified Job Tracker</b>: A Google Chrome extension for efficient job tracking.</li>
+                        </ul>
+                        <p className="text-lg mb-4">
+                            Additionally, I have been highly consistent in my LeetCode journey for the past two months, focusing on improving my problem-solving skills and mastering algorithms.
+                        </p>
+                        <h3 className="text-xl font-semibold mt-4 mb-2">GitHub Contributions</h3>
+                        <p className="text-lg mb-4">
+                            Here's a visualization of my GitHub contributions and activity for the past two months:
+                        </p>
+                        <a href="https://github.com/Sachin1801/DSA_CPP_Leetcode_-_GFG">
+                            <img 
+                                src="https://github-readme-activity-graph.vercel.app/graph?username=Sachin1801&repo=DSA_CPP_Leetcode_-_GFG&theme=react-dark&area=true&hide_border=true&custom_title=GitHub%20Activity%20Graph%20for%20the%20Past%20Two%20Months" 
+                                alt="DSA Practice Activity Graph"
+                                className="w-full mb-4 border border-gray-300 rounded-lg shadow-md"
+                            />
+                        </a>
+                        <p className="text-lg mb-4">
+                            Total contributions in the past two months: 150
+                        </p>
+
                         <h3>My Hobbies</h3>
                         <br />
                         <p>

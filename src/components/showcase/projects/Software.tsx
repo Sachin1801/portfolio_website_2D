@@ -5,6 +5,12 @@ import saga from '../../../assets/pictures/projects/software/saga.mp4';
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
 // @ts-ignore
 import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
+// @ts-ignore
+import image from '../../../assets/pictures/projects/software/image.png';
+// @ts-ignore
+import jobImage from '../../../assets/pictures/projects/software/job.png';
+// @ts-ignore
+import marketImage from '../../../assets/pictures/projects/software/market.png';
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 
@@ -23,6 +29,103 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <br />
             <ResumeDownload />
             <br />
+            <div className="text-block">
+                <h2>Simplified Job Tracker Chrome Extension</h2>
+                <br />
+                <p>
+                    Simplified Job Tracker is a Chrome extension designed to help job seekers keep track of their job applications 
+                    effortlessly. It allows users to save job postings, track application statuses, and set reminders for follow-ups.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <img src={jobImage} style={styles.image} alt="" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure:</b> Screenshot of the Simplified Job Tracker Chrome extension interface
+                        </sub>
+                    </p>
+                </div>
+                <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/Sachin1801/Simplified_Job_Tracker"
+                        >
+                            <p>
+                                <b>[GitHub]</b> - Simplified Job Tracker Repository
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div className="text-block">
+                <h2>MarketplAIce</h2>
+                <br />
+                <p>
+                    MarketplAIce is an AI-powered marketplace platform that connects buyers and sellers in a seamless and intelligent way. 
+                    The platform leverages machine learning algorithms to provide personalized recommendations and optimize the buying and 
+                    selling experience.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <img src={marketImage} style={styles.image} alt="" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure:</b> Screenshot of the MarketplAIce platform interface
+                        </sub>
+                    </p>
+                </div>
+                <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/Sachin1801/marketplAIce"
+                        >
+                            <p>
+                                <b>[GitHub]</b> - MarketplAIce Repository
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div className="text-block">
+                <h2>9thgen.ai</h2>
+                <br />
+                <p>
+                    9thgen.ai is a cutting-edge AI platform designed to provide advanced AI solutions for various industries. The platform 
+                    offers a range of AI services, including natural language processing, computer vision, and predictive analytics.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <img src={image} style={styles.image} alt="" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure:</b> Screenshot of the 9thgen.ai platform interface
+                        </sub>
+                    </p>
+                </div>
+                <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://www.9thgen.ai/"
+                        >
+                            <p>
+                                <b>[Deployment]</b> - 9thgen.ai
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div className="text-block">
                 <h2>sachinadlakha.com</h2>
                 <br />
@@ -189,75 +292,6 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     changes, however, a link to the game in appstore will be added here.
                 </p>
             </div>
-            {/* <div className="text-block">
-                <h2>Skip the Scroll</h2>
-                <br />
-                <p>
-                    While working at Hover, I spent a lot of time on GitHub
-                    issue pages looking for answers and solutions to problems I
-                    had run into. I would always find myself sifting though the
-                    comments trying to find the right answer, which usually had
-                    the most upvotes and positive reactions. With that
-                    information, I decided to create a very simple chrome
-                    extension that would sift through all the comments on the
-                    page, sort them by positive reactions, and then allow you to
-                    traverse them from most positive reactions to least positive
-                    reactions.
-                </p>
-                <br />
-                <div className="captioned-image">
-                    <VideoAsset src={scroll} />
-                    <p style={styles.caption}>
-                        <sub>
-                            <b>Figure 3:</b> Skip the Scroll in action, finding
-                            the highest rated comments and scrolling right to
-                            them
-                        </sub>
-                    </p>
-                </div>
-                <p>
-                    The extension is open source and currently released on the
-                    Chrome web store. Skip the Scroll is obviously not a project
-                    with massive scope, but was fun to make and dive into the
-                    world of browser extensions. I wanted to showcase since it's
-                    a developer tool and I wanna give it some visibility for
-                    those who might find it useful.
-                </p>
-                <br />
-                <h3>Links:</h3>
-                <ul>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/henryjeff/skip-the-scroll"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - Skip the Scroll Repository
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://chrome.google.com/webstore/detail/skip-the-scroll/mfehannpjmgfagldoilpngeoecdfgmnd"
-                        >
-                            <p>
-                                <b>[Chrome Web Store]</b> - Skip the Scroll
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                <p>
-                    If you are a developer and have also found yourself
-                    scrolling through github comment after github comment saying
-                    "i also have this problem...", then I highly recommend you
-                    check out Skip the Scroll to save you some of your precious
-                    time. If you like it, feel free to star it on GitHub and
-                    rate it on the Chrome web store.
-                </p>
-            </div> */}
             <ResumeDownload />
         </div>
     );
@@ -270,6 +304,10 @@ const styles: StyleSheetCSS = {
     },
     caption: {
         width: '80%',
+    },
+    image: {
+        width: '100%',
+        padding: 12,
     },
 };
 
